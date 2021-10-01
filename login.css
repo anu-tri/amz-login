@@ -1,0 +1,168 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+} 
+
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form .box{
+    min-width: 400px;
+    min-height: 300px;
+    margin:30px 100px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newaccount-box{
+    min-width: 400px;
+    min-height: 100px;
+    margin:100px;
+    margin-top:-30px;
+    padding: -10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form .box .heading{
+    display: block;
+    margin: 15px;
+    font-size: medium;   
+}
+
+/* Sign in */
+.login-form .box .heading h4{
+    color: #181a1b;
+    font-size: 20px;
+    text-align: left;
+    display:inline-block;
+    margin: 15px 0px 10px;
+    padding-bottom: 3px;
+}
+
+.login-form .box .form-inputs{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding: 5px 15px;
+}
+
+.login-form .box .form-inputs .input-box{
+    position: relative;
+    margin-bottom: 20px;
+    width:100%;
+}
+
+.login-form .box .form-inputs .input-box .form-control{
+    height:25px;
+    width:100%;
+    padding-left: 0 0 0 45px; 
+    border: solid 1px lightgrey;
+}
+
+login-form .box .form-inputs .button-box{
+    width:100%;
+    display:flex;
+}
+
+.input-box a{
+    color:#1495a7;
+    padding: 0;
+    font-size: small;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.help a{
+    color: #1495a7;
+    font-size: small;
+    margin:0;
+  }
+
+button{
+    color: black;
+    background-color: #DEC102;
+    font:16px;
+    padding: 8px 35px;
+    width: 100%;
+    border:solid 1px #cccccc;
+}
+
+.createbutton{
+    color: black;
+    background-color:lightgrey;
+}
+
+.login-form .box .form-inputs .input-box .labels{
+    font-size:x-small;
+    font-weight:bold;
+}
+
+#trisymbol {
+    content: "\1F892";
+    font-size: 24px;
+    color:#1495a7;
+    padding:2px;
+}
+
+#help{
+    font-size: small;
+    color:#1495a7;
+    margin-top: 25px;
+    margin-top: -30px;
+}
+
+h5 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #b7b7b7; 
+    line-height: 0.1em;
+    margin-top: 1px 10px 10px; 
+ } 
+ 
+ h5 span { 
+     background:#fff; 
+     font-size: small;
+     font-weight: normal;
+     color: lightgrey;
+ }
+ 
+ hr{
+    margin-top:-80px; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    padding: 0; 
+ }
+
+ #footer {
+    width: 600px;
+    height:100px;
+    margin:10px 320px;
+  }
+
+  #footer p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  #footer p a{
+      color: #1495a7;
+  }
+  
+  
